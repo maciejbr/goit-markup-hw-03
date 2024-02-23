@@ -70,9 +70,28 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-logo);
+  margin-right: 76px;
+  display: inline-block;
 }
+
 .logo-header {
   color: #2e2f42;
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.list-header {
+  display: flex;
+  gap: 40px;
+}
+
+.header-div {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .first-link:hover {
@@ -97,6 +116,14 @@ ol {
 
 .address {
   font-style: normal;
+  margin-left: auto;
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .span {
