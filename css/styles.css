@@ -94,6 +94,11 @@ header {
   padding: 0 15px;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -290,6 +295,13 @@ header {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 .button:focus {
