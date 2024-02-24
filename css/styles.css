@@ -171,12 +171,15 @@ header {
 .logo-footer {
   color: #f4f4fd;
   font-weight: 700;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-paragraph {
   line-height: 1.5;
   color: var(--color-footer);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .contact-link {
@@ -300,6 +303,13 @@ header {
 .section-three {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+
+.div-three {
+  padding: 32px 0px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  gap: 32px;
 }
 
 .portfolio-list {
