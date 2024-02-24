@@ -134,8 +134,8 @@ header {
 }
 
 .section-one-list {
-  gap: 24px;
   display: flex;
+  gap: 24px;
 }
 
 .section-one-li {
@@ -240,6 +240,7 @@ header {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .heading-three {
