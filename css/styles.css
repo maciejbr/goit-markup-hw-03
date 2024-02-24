@@ -72,6 +72,7 @@ ol {
   color: var(--color-logo);
   margin-right: 76px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-header {
@@ -339,6 +340,7 @@ header {
 }
 
 .footer {
+  padding: 100px 0;
   background-color: #2e2f42;
   color: var(--CLOUD, #f4f4fd);
 }
